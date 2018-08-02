@@ -1,0 +1,34 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  background-color: black;
+  font-family: Trebuchet MS;
+  color: white;
+}
+
+.jumbotron {
+  background-image: url(images/header.jpg);
+  margin-bottom: 0px;
+  background-position: 0% 25%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.promoImage {
+  padding-top: 20px;
+  width: 100%;
+}
+
+
+.bg-veryDark {
+  background-color: #1F1F1F;
+}
+
+h1 {
+
+}
+
+h2 {
+  padding-top: 20px;
+}
