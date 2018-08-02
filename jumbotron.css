@@ -32,3 +32,16 @@ h1 {
 h2 {
   padding-top: 20px;
 }
+
+.modal {
+  color: black;
+}
+
+.modal p {
+  padding-top:20px;
+}
+
+#carouselExampleIndicators {
+  padding-left: 0px;
+  padding-right: 0px;
+}

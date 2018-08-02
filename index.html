@@ -18,7 +18,7 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-veryDark">
+    <nav class="container navbar navbar-expand-md navbar-dark fixed-top bg-veryDark">
       <a class="navbar-brand" href="#">Superstar DJs</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -55,7 +55,7 @@
     <main role="main">
 
       <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
+      <div class="container jumbotron">
         <div class="container">
           <div class="row">
             <div class="col-md-8">
@@ -69,6 +69,58 @@
         </div>
       </div>
 
+      <!--Promo images in three columns -->
+      <div class="container bg-veryDark">
+        <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <img class="img-responsive promoImage" src='images/milton-hill-house-1280x800.jpg'>
+            <h2>Milton Hill House</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-success" href="#" role="button" data-toggle="modal" data-target="#exampleModal">View details &raquo;</a></p>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Milton Hill House Hotel</h5>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img class="promoImage" src='images/milton-hill-house-1280x800.jpg'>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer convallis lacus est, et convallis risus facilisis nec. Nam elit ex, dignissim non dolor eu, rutrum ultrices mauris. Mauris vel dignissim nulla, id viverra tellus. Proin non felis sit amet ipsum blandit sagittis ut vitae dolor. Donec faucibus in elit non sollicitudin. Fusce sollicitudin dolor quis justo feugiat consectetur. Maecenas nec ultricies magna, eu interdum est. Mauris tempor feugiat mauris, sed interdum est pharetra eu. Donec eu porta urna.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-sucess" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <img class="img-responsive promoImage" src='images/sudbury-house-1280x800.jpg'>
+            <h2>Sudbury House Hotel</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-success" href="#" role="button">View details &raquo;</a></p>
+          </div>
+          <div class="col-md-4">
+            <img class="img-responsive promoImage" src='images/lains-barn-1280x800.jpg'>
+            <h2>Lains Barn</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-success" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+
+        <hr>
+      </div>
+      <!-- /container -->
+
+      <!-- Carousel of Promo Images -->
       <div id="carouselExampleIndicators" class="container carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -96,35 +148,7 @@
         </a>
       </div>
 
-      <!--Promo images in three columns -->
       <div class="container">
-        <!-- Example row of columns -->
-        <div class="row">
-          <div class="col-md-4">
-            <img class="img-responsive promoImage" src='images/milton-hill-house-1280x800.jpg'>
-            <h2>Milton Hill House</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-success" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <img class="img-responsive promoImage" src='images/sudbury-house-1280x800.jpg'>
-            <h2>Sudbury House Hotel</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-success" href="#" role="button">View details &raquo;</a></p>
-          </div>
-          <div class="col-md-4">
-            <img class="img-responsive promoImage" src='images/lains-barn-1280x800.jpg'>
-            <h2>Lains Barn</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-success" href="#" role="button">View details &raquo;</a></p>
-          </div>
-        </div>
-
-        <hr>
-      </div>
-      <!-- /container -->
-
-      <div class="container bg-veryDark">
         <!-- Example row of columns -->
         <div class="row">
           <div class="col-md-4">
@@ -150,8 +174,132 @@
 
     </main>
 
-    <footer class="container">
-      <p>&copy; Superstar DJs Ltd 2018</p>
+    <footer class="container full-width bg-veryDark">
+      <!-- Footer -->
+      <footer class="page-footer font-small yellow">
+
+          <!-- Footer Links -->
+          <div class="container text-center text-md-left">
+
+            <!-- Grid row -->
+            <div class="row">
+
+              <!-- Grid column -->
+              <div class="col-md-3 mx-auto">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+                <ul class="list-unstyled green">
+                  <li>
+                    <a href="#!">Very long link 1</a>
+                  </li>
+                  <li>
+                    <a href="#!">Very long link 2</a>
+                  </li>
+                  <li>
+                    <a href="#!">Very long link 3</a>
+                  </li>
+                  <li>
+                    <a href="#!">Very long link 4</a>
+                  </li>
+                </ul>
+
+              </div>
+              <!-- Grid column -->
+
+              <hr class="clearfix w-100 d-md-none">
+
+              <!-- Grid column -->
+              <div class="col-md-3 mx-auto">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">Link 1</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 2</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 3</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 4</a>
+                  </li>
+                </ul>
+
+              </div>
+              <!-- Grid column -->
+
+              <hr class="clearfix w-100 d-md-none">
+
+              <!-- Grid column -->
+              <div class="col-md-3 mx-auto">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">Link 1</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 2</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 3</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 4</a>
+                  </li>
+                </ul>
+
+              </div>
+              <!-- Grid column -->
+
+              <hr class="clearfix w-100 d-md-none">
+
+              <!-- Grid column -->
+              <div class="col-md-3 mx-auto">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#!">Link 1</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 2</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 3</a>
+                  </li>
+                  <li>
+                    <a href="#!">Link 4</a>
+                  </li>
+                </ul>
+
+              </div>
+              <!-- Grid column -->
+
+            </div>
+            <!-- Grid row -->
+
+          </div>
+          <!-- Footer Links -->
+
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">
+            &copy; Superstar DJs Ltd 2018
+          </div>
+          <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
     </footer>
 
     <!-- Bootstrap core JavaScript
